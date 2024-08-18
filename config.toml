@@ -35,12 +35,3 @@ highlight_theme = "css"
 
 [extra]
 title_separator = "-"
-
-locale = [
-  { pt = [
-    { content_skip_label = "Skip to content" },
-  ]},
-  { en = [
-    { content_skip_label = "Saltar para o conteúdo" },
-  ]},
-]

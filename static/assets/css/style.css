@@ -51,8 +51,7 @@ nav {
 }
 
 #skip-to-main:focus {
-  left: 10%;
-  top: 10%;
+  left: 40%;
   background-color: #333;
   padding: 10px;
 }

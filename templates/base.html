@@ -44,7 +44,11 @@
 
 <body>
 
-      <a id="skip-to-main" href="#main">{{ config.extra.locale.0 }}</a>
+      {% if lang == "pt" %}
+      <a id="skip-to-main" href="#main">Saltar para o conteúdo</a>
+      {% else %}
+      <a id="skip-to-main" href="#main">Skip to content</a>
+      {% endif %}
 
   {% block header %}{% endblock %}
 
